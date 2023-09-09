@@ -37,7 +37,7 @@ const App = () => {
         <Stack.Navigator initialRouteName='Home'>
             <Stack.Screen 
             name='Home' 
-            componant={HomeScreen}
+            component={HomeScreen}
             options={{title:'overview'}}
             />
             <Stack.Screen name='Details' component={{DetailScreen}}/>

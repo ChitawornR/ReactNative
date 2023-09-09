@@ -28,17 +28,17 @@ const App = () => {
         >
             <Stack.Screen 
             name='first' 
-            componant={FirstPage}
+            component={FirstPage}
             options={{title:'overview'}}
             />
             <Stack.Screen 
             name='second'
-            componant={SecondPage}
+            component={SecondPage}
             options={{title:'overview'}}
             />
             <Stack.Screen 
             name='third'
-            componant={ThirdPage}
+            component={ThirdPage}
             options={{title:'overview'}}
             />
         </Stack.Navigator>
