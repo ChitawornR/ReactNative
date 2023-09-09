@@ -7,7 +7,7 @@ const FirstPage = ({navigation}) => {
       <Text style={styles.textStyle}>This is the First Page of the app</Text>
       <Button
       title='Go TO SECOND PAGE'
-      onPress={()=>navigation.navigate('second')}
+      onPress={()=>navigation.navigate('SecondDrawer')}
       />
     </View>
   )
