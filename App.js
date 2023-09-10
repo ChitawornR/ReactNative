@@ -17,7 +17,7 @@ function FirstDrawer(){
             }
          }}
         >
-            <Stack.Screen name= 'FirstDrawer' component={FirstPage} options={{title: 'First Page'}}/>
+            <Stack.Screen name= 'First' component={FirstPage} options={{title: 'First Page'}}/>
         </Stack.Navigator>
       )
 }
@@ -30,9 +30,8 @@ function SecondDrawer(){
                 backgroundColor: '#FFC0CB'
             }
          }}
-        
         >
-            <Stack.Screen name= 'SecondDrawer' component={SecondPage} options={{title: 'Second Page'}}/>
+            <Stack.Screen name='Second' component={SecondPage} options={{title: 'Second Page'}}/>
         </Stack.Navigator>
     )
 }
@@ -61,7 +60,6 @@ const App = () => {
     <NavigationContainer>
         <MyDrawer/>
     </NavigationContainer>
-
   )
 }
 

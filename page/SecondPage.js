@@ -11,7 +11,7 @@ const SecondPage = ({navigation}) => {
       />
       <Button
        title='Go TO SECOND PAGE...AGAIN'
-       onPress={()=>navigation.push('SecondDrawer')}
+       onPress={()=>navigation.push('Second')}
       />
       <Button
        title='Go TO FIRST PAGE'
@@ -19,7 +19,7 @@ const SecondPage = ({navigation}) => {
       />
       <Button
        title='Go TO THIRD PAGE'
-       onPress={()=>navigation.navigate('third')}
+       onPress={()=>navigation.navigate('Third')}
       />
     </View>
   )

@@ -11,11 +11,11 @@ const ThirdPage = ({navigation}) => {
       />
       <Button
        title='Go TO SECOND PAGE'
-       onPress={()=>navigation.navigate('second')}
+       onPress={()=>navigation.navigate('Second')}
       />
       <Button
        title='Go NAVIGATE TO FIRST PAGE'
-       onPress={()=>navigation.navigate('first')}
+       onPress={()=>navigation.navigate('First')}
       />
     </View>
   )
