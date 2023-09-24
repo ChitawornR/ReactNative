@@ -1,0 +1,53 @@
+Programs check
+- VS Code
+- Android Studio
+- node JS
+
+
+1.npm install -g expo-cli
+2.npx expo start
+3.npm install (if cant run)
+
+Plungin
+1.install axios
+npm install axios --save
+
+2.install navigation
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+
+3.install navigation-stack
+npm install @react-navigation/native-stack
+
+4.install drawer
+npm install @react-navigation/drawer
+npx expo install react-native-gesture-handler react-native-reanimated  //  import 'react-native-gesture-handler';
+npx expo start --clear
+
+5.install Tab
+npm install @react-navigation/bottom-tabs
+
+6.Icons
+npx expo install @expo/vector-icons
+npm install @react-navigation/material-bottom-tabs react-native-paper react-native-vector-icons
+
+
+if babel dont change
+module.exports = function (api) {
+  api.cache(true);
+  return {
+      presets: ['babel-preset-expo'],
+      plugins: [
+          [
+              'module-resolver',
+              {
+                  alias: {
+                      '@': './src',
+                      'assets': './assets',
+                  }
+              },
+          ],
+          'react-native-reanimated/plugin'
+      ]
+  };
+};
